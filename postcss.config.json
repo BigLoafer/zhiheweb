@@ -1,0 +1,25 @@
+{
+  "plugins": {
+    "postcss-simple-vars": false,
+    "postcss-calc": false,
+    "postcss-nested": false,
+    "postcss-pxtorem": {
+      "rootValue": 75,
+      "unitPrecision": 4,
+      "propList": ["*"],
+      "selectorBlackList": [],
+      "replace": true,
+      "mediaQuery": false,
+      "minPixelValue": 2
+    },
+    "autoprefixer": {
+      "overrideBrowserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8",
+        "ios >= 8",
+        "android >= 4.0"
+      ]
+    }
+  }
+}
